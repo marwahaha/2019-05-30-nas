@@ -30,19 +30,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-
-{% comment %}
-For a workshop please delete the following block
-{% endcomment %}
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to customize your
-own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
-about your workshop and our administrator may contact you if we need any extra
-information.
-</div>
-
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
 You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code> and
@@ -227,7 +214,7 @@ Show the workshop's schedule.  Edit the items and times in the table
 to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Schedule (Draft)</h2>
 
 {% if page.carpentry == "swc" %}
 {% include sc/schedule.html %}
@@ -272,7 +259,7 @@ This is one of the places where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
-<h2 id="syllabus">Syllabus</h2>
+<h2 id="syllabus">Syllabus (Draft)</h2>
 
 {% if page.carpentry == "swc" %}
 {% include sc/syllabus.html %}
