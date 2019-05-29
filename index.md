@@ -214,7 +214,7 @@ Show the workshop's schedule.  Edit the items and times in the table
 to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
-<h2 id="schedule">Schedule (Draft)</h2>
+<h2 id="schedule">Schedule</h2>
 
 {% if page.carpentry == "swc" %}
 {% include sc/schedule.html %}
@@ -259,7 +259,7 @@ This is one of the places where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
-<h2 id="syllabus">Syllabus (Draft)</h2>
+<h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
 {% include sc/syllabus.html %}
